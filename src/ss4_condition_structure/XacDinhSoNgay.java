@@ -1,4 +1,4 @@
-package ss3_java_overview.exercise;
+package ss4_condition_structure;
 
 import java.util.Scanner;
 
