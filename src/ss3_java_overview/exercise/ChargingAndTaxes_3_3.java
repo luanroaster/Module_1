@@ -2,20 +2,23 @@ package ss3_java_overview.exercise;
 
 import java.util.Scanner;
 
-public class Thue {
+public class ChargingAndTaxes_3_3
+{
     static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+
         System.out.println("Nhap Ten San Pham");
-        String tenSP = scanner.nextLine();
+        String namesproduct = scanner.nextLine();
+
         System.out.println("Nhap So Luong");
-        int soLuong = scanner.nextInt();
+        double quantity = scanner.nextInt();
         System.out.println("Nhap Don Gia");
-        int donGia = scanner.nextInt();
+        double price = scanner.nextInt();
 
-        int tien = soLuong * donGia;
-        double thue = tien * 0.10;
+        double totalmoney = quantity * price;
+        double thue = totalmoney * 0.10;
 
-        System.out.println("Thanh Tien = "+tien);
+        System.out.println("Thanh Tien = "+totalmoney);
         System.out.println("VAT = "+ thue);
     }
 }

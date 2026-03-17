@@ -1,9 +1,8 @@
-package ss3_java_overview.exercise;
+package ss4_condition_structure;
 
 import java.util.Scanner;
 
-public class SolveEquationsOfDegree1
-
+public class SolveEquationsOfDegree1_4_5
         {
     static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

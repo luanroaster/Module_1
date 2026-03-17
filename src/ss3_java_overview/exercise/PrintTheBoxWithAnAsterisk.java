@@ -14,8 +14,8 @@ public class PrintTheBoxWithAnAsterisk
         System.out.println("Nhap vao cot: ");
         int colum = scanner.nextInt();
 
-        for (int i = 1; i<= row ; i++){
-            for (int j = 1; j <= colum; j++){
+        for (int i = 1; i<= colum ; i++){
+            for (int j = 1; j <= row; j++){
                 if (j<=i ){
                     System.out.println("* ");
                 }else {

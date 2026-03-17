@@ -1,10 +1,10 @@
-package ss3_java_overview.exercise;
+package ss4_condition_structure;
 
 import java.util.Scanner;
 
 import static java.lang.Math.sqrt;
 
-public class SolveEquationsOfDegree2{
+public class SolveEquationsOfDegree2_4_6 {
     static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("nhap he so a:");

@@ -2,7 +2,7 @@ package ss3_java_overview.exercise;
 
 import java.util.Scanner;
 
-public class Circular {
+public class Circular_3_5 {
     static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 

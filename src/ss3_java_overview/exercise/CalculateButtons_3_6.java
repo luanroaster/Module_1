@@ -2,7 +2,9 @@ package ss3_java_overview.exercise;
 
 import java.util.Scanner;
 
-public class SoNut {
+public class CalculateButtons_3_6
+
+{
     static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Nhap bien so xe cua ban");

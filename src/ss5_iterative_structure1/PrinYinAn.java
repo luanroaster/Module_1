@@ -1,8 +1,8 @@
-package ss3_java_overview.exercise;
+package ss5_iterative_structure1;
 
 import java.util.Scanner;
 
-class PrinYinAndYang {
+class PrinYinAndYang_5_4 {
     static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 

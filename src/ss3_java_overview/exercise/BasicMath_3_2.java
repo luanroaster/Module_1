@@ -2,7 +2,8 @@ package ss3_java_overview.exercise;
 
 import java.util.Scanner;
 
-public class TongHieuTichThuong {
+public class BasicMath_3_2
+{
     static void main(String[] args) {
 
         System.out.print("Nhap a: ");

@@ -2,7 +2,9 @@ package ss4_condition_structure;
 
 import java.util.Scanner;
 
-public class XacDinhSoNgay {
+public class NumberOfDaysInMonth_4_8
+
+{
     static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Nhap vao thang:");

@@ -1,8 +1,8 @@
-package ss3_java_overview.exercise;
+package ss4_condition_structure;
 
 import java.util.Scanner;
 
-public class IslandNo
+public class IslandNo_4_3
 {
     static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

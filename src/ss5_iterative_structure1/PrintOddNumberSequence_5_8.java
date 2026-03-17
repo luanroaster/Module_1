@@ -1,8 +1,8 @@
-package ss3_java_overview.exercise;
+package ss5_iterative_structure1;
 
 import java.util.Scanner;
 
-public class PrintOddNumberSequence
+public class PrintOddNumberSequence_5_8
 
 {
     static void main(String[] args) {

@@ -1,6 +1,6 @@
 package ss3_java_overview.exercise;
 
-public class FindTheValueOfVariable
+public class FindTheValueOfVariable_3_7
 {
     static void main(String[] args) {
     //a, a == 2,i==2,j==2

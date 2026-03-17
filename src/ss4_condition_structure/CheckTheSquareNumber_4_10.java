@@ -1,8 +1,8 @@
-package ss3_java_overview.exercise;
+package ss4_condition_structure;
 
 import java.util.Scanner;
 
-public class CheckTheSquareNumber
+public class CheckTheSquareNumber_4_10
 {
     static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

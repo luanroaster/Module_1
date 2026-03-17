@@ -1,12 +1,8 @@
-package ss3_java_overview.exercise;
+package ss6_method;
 
-import static java.lang.Math.min;
 import static java.lang.Math.sqrt;
 
-public class ConditionsAndBranching
-
-{
-
+public class B6_1 {
     public static char convert (char ch){
         if (ch>= 'a' && ch <= 'z'){
             return (char) (ch-32) ;
@@ -35,23 +31,17 @@ public class ConditionsAndBranching
             System.out.println("tu giai phuong trinh bac 1 nhe");
         }else {
             int delta;
-
             delta = (b * b) - 4 * a * c;
-
             if (delta < 0){
                 System.out.println("Phuong Trinh Vo Nghiem delta = " +delta);
             } else if (delta == 0) {
                 int x;
-
                 x = -b/2*a;
-
                 System.out.println("Phuong trinh co 1 nghiem duy nhat x = " +x);
             }else {
                 int x1,x2;
-
                 x1 = (int) (-b-sqrt(delta))/(2*a);
                 x2 = (int) (-b+sqrt(delta))/(2*a);
-
                 System.out.println("Phuong trinh co nghiep x1 =" +x1);
                 System.out.println("Phuong trinh co nghiep x2 =" +x2);
             }
@@ -61,11 +51,9 @@ public class ConditionsAndBranching
 
     public static int Min(int a, int b, int c, int d){
         int Max;
-
         Max = Math.max(a,b);
         Max = Math.max(Max,c);
         Max = Math.max(Max,d);
-
         return Max;
     }
     static void main(String[] args) {
